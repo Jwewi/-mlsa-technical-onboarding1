@@ -10,7 +10,7 @@ import About from "./Components/About";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
-import certification from "./Components/certification";
+import certification from "./Components/certification.jsx";
 
 import "./styles.css";
 
@@ -30,7 +30,7 @@ const siteProps = {
   gitHub: "Jwewi",
   instagram: "eya__jaoua",
   linkedIn: "eya-jaoua",
-  facebook: "eya.jaoua"
+  facebook: "eya.jaoua",
 };
 
 const primaryColor = "#4E567E";
