@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
- "homepage": "http://Jwewi.github.io/my-technical-onboarding1",
+  "homepage": "http://Jwewi.github.io/my-technical-onboarding1",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
