@@ -29,7 +29,7 @@ const siteProps = {
   email: "jaoua.eya@studentambassadors.com",
   gitHub: "Jwewi",
   instagram: "eya__jaoua",
-  linkedIn: "eya-jaoua",
+  linkedIn: "eya-jaoua-169056226",
   facebook: "eya.jaoua",
 };
 
