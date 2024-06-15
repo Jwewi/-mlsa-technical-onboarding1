@@ -10,7 +10,7 @@ import About from "./Components/About";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
-import certification from "./Components/certification.jsx";
+import Certification from "./Components/certification";
 
 import "./styles.css";
 
@@ -42,7 +42,7 @@ function App() {
       <Header />
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
-      <certification />
+      <Certification />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
   );
