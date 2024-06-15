@@ -10,7 +10,7 @@ import About from "./Components/About";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
-import Portfolio from "./Components/Portfolio";
+import certification from "./Components/certification";
 
 import "./styles.css";
 
@@ -24,30 +24,28 @@ import "./styles.css";
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
 const siteProps = {
-  name: "Alexandrie Grenier",
-  title: "Web Designer & Content Creator",
-  email: "alex@example.com",
-  gitHub: "microsoft",
-  instagram: "microsoft",
-  linkedIn: "satyanadella",
-  medium: "",
-  twitter: "microsoft",
-  youTube: "Code",
+  name: "Eya Jaoua",
+  title: "Web developper & Cloud enthusiast",
+  email: "jaoua.eya@studentambassadors.com",
+  gitHub: "Jwewi",
+  instagram: "eya__jaoua",
+  linkedIn: "eya-jaoua",
+  facebook: "eya.jaoua"
 };
 
 const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
 
-const App = () => {
+function App() {
   return (
     <div id="main">
       <Header />
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
-      <Portfolio />
+      <certification />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
   );
-};
+}
 
 export default App;
