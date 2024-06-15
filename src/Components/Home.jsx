@@ -21,6 +21,12 @@ import PropTypes from "prop-types";
  * freely use on your site.
  */
 import image from "../images/cover.jpg";
+const nameStyle = {
+  color: "#D3C389", // Change 'blue' to your desired color for the name
+};
+const descriptionStyle = {
+  color: "#B58863", // Change 'green' to your desired color for the description
+};
 
 const imageAltText = "a photo of me";
 
@@ -29,8 +35,8 @@ const Home = ({ name, title }) => {
     <section id="home" className="min-height">
       <img className="background" src={image} alt="" />
       <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem" }}>
-        <h1>{name}</h1>
-        <h2>{title}</h2>
+        <h1 style={nameStyle}>{name}</h1>
+        <h2 style={descriptionStyle}>{title}</h2>
       </div>
       <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
         <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />

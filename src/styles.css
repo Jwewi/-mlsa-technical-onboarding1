@@ -51,7 +51,15 @@ h1 {
   font-weight: 400;
   line-height: 0.8;
   margin: 0;
-  color:"#D3C389";
+  
+}
+/* styles.css */
+.nameColor {
+  color:"#D3C389"; /* Change 'blue' to your desired color for the name */
+}
+
+.descriptionColor {
+  color: "#B58863"; /* Change 'green' to your desired color for the description */
 }
 
 h2 {
@@ -59,7 +67,7 @@ h2 {
   font-weight: 400;
   margin: 0;
   padding-top: 1rem;
-  color:"#B58863";
+  
 }
 
 h3 {
