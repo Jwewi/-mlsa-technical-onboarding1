@@ -22,7 +22,7 @@ import PropTypes from "prop-types";
  */
 import image from "../images/cover.jpg";
 const nameStyle = {
-  color: "#FA79E90", // Change 'blue' to your desired color for the name
+  color: "#D3C389", // Change 'blue' to your desired color for the name
 };
 const descriptionStyle = {
   color: "#B58863", // Change 'green' to your desired color for the description
