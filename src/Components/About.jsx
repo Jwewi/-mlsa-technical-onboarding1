@@ -30,12 +30,7 @@ const description =
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
-const skillsList = [
-  "html/css",
-  "python",
-  "C",
-  "microsoft 365",
-];
+const skillsList = ["html/css", "python", "C", "microsoft 365"];
 
 /**
  * Use this to give more information about what you are passionate about,
